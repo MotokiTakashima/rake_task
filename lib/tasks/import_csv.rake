@@ -4,7 +4,7 @@ namespace :import_csv do
 
   desc "CSVデータをインポートするタスク"
 
-  task user: :environment do
+  task users: :environment do
     path = "db/csv_data/csv_data.csv"
 
     list = []
